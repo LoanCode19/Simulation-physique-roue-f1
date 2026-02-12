@@ -1,7 +1,4 @@
-mport os
-
 # Contenu complet du README
-readme_content = r"""# F1 Tire Dynamics Simulator
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
 ![SciPy](https://img.shields.io/badge/SciPy-Solver-orange?style=flat-square&logo=scipy)
