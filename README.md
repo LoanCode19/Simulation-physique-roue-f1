@@ -60,11 +60,11 @@ python test_simulation.py
 L'interface permet de contrôler l'accélérateur et le frein via des sliders  
 (pour définir un seuil de puissance) et des touches clavier.
 
-| Action     | Touche clavier | Interface graphique |
-|-----------|---------------|---------------------|
-| Accélérer | W ou ↑        | Bouton **ACCÉLÉRER** |
-| Freiner   | S ou ↓        | Bouton **FREINER**   |
-| Puissance | —             | Sliders **Seuil gaz** / **Seuil frein** |
+| Action    | Touche clavier | Interface graphique |
+| :-------- | :------------- | :------------------ |
+| Accélérer | W ou ↑         | Bouton **ACCÉLÉRER**|
+| Freiner   | S ou ↓         | Bouton **FREINER** |
+| Puissance | —              | Sliders...          |
 
 ## 🧮 Architecture technique
 
