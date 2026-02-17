@@ -1,16 +1,11 @@
 # Contenu complet du README
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
-![SciPy](https://img.shields.io/badge/SciPy-Solver-orange?style=flat-square&logo=scipy)
-![Pygame](https://img.shields.io/badge/Pygame-Visualization-green?style=flat-square&logo=pygame)
-
 **Simulateur physique temps réel de la dynamique longitudinale et de la thermodynamique d'un pneumatique de Formule 1.**
 
 Ce projet modélise le comportement non-linéaire d'une roue de F1 soumise à des contraintes extrêmes. Il couple un modèle de friction empirique (**Magic Formula**) à un système thermodynamique multicouche, le tout résolu numériquement via des équations différentielles.
 
 ---
 
-## 🚀 Fonctionnalités Principales
+## Fonctionnalités Principales
 
 ### 1. Modélisation Physique Avancée
 * **Modèle de Pacejka (Magic Formula) :** Implémentation complète des coefficients $B, C, D, E$ calibrés pour la F1 afin de simuler la courbe de friction non-linéaire et la saturation de l'adhérence.
@@ -32,10 +27,10 @@ Ce projet modélise le comportement non-linéaire d'une roue de F1 soumise à de
 
 ---
 
-## 🛠️ Installation et Utilisation
+## Installation et Utilisation
 
 ### Prérequis
-Ce projet nécessite **Python 3.x** et les bibliothèques suivantes :
+Ce projet nécessite **Python 3** et les bibliothèques suivantes :
 
 ```bash
 pip install numpy scipy pygame
@@ -55,7 +50,7 @@ python simulation_visuelle.py
 python test_simulation.py
 ```
 
-## 🕹️ Contrôles de la simulation
+## Contrôles de la simulation
 
 L'interface permet de contrôler l'accélérateur et le frein via des sliders  
 (pour définir un seuil de puissance) et des touches clavier.
@@ -87,7 +82,7 @@ X = [
 ]
 ```
 
-## 📁 Structure des fichiers
+## Structure des fichiers
 
 - physique_roue.py :
   Moteur physique.
