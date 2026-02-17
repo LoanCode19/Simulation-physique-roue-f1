@@ -61,7 +61,7 @@ L'interface permet de contrôler l'accélérateur et le frein via des sliders
 | Freiner   | S ou ↓         | Bouton **FREINER** |
 | Puissance | —              | Sliders...          |
 
-## 🧮 Architecture technique
+## Architecture technique
 
 Le cœur de la simulation repose sur la résolution du système différentiel  
 dans `physique_roue.py`.
